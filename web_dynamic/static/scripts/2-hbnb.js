@@ -28,4 +28,4 @@ $.ajax('http://localhost:5001/api/v1/status/').done(function (data) {
     } else {
         apiStatus.removeClass('available');
     }
-}
+})
