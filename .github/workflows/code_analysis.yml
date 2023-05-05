@@ -49,6 +49,11 @@ jobs:
           flake8 $(git ls-files 'api/*.py')
           pycodestyle $(git ls-files 'api/*.py')
 
+      - name: Analysing web_dynamic with Flake8 and Pycodestyle
+        run: |
+          flake8 $(git ls-files 'web_dynamic/*.py')
+          pycodestyle $(git ls-files 'web_dynamic/*.py')
+
 #      - name: Run unit tests
 #        run: |
 #          python3 -m unittest discover tests
@@ -102,6 +107,11 @@ jobs:
         run: |
           flake8 $(git ls-files 'api/*.py')
           pycodestyle $(git ls-files 'api/*.py')
+
+      - name: Analysing web_dynamic with Flake8 and Pycodestyle
+        run: |
+          flake8 $(git ls-files 'web_dynamic/*.py')
+          pycodestyle $(git ls-files 'web_dynamic/*.py')
 
       - name: Run unit tests
         run: |
