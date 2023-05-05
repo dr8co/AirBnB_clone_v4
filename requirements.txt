@@ -18,3 +18,4 @@ mysqlclient
 requests
 requests-oauthlib
 Werkzeug
+jsonschema
